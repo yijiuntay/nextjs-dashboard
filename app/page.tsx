@@ -4,6 +4,13 @@ import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Welcome Page',
+  description:
+    'The official Next.js Course Dashboard welcome page, built with App Router.',
+};
 
 export default function Page() {
   return (
